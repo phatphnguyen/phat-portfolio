@@ -161,20 +161,5 @@
     <a href="#top" class="button">Back to Top</a>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const sections = document.querySelectorAll('.fade-in');
-      function checkVisibility() {
-        sections.forEach((section) => {
-          const rect = section.getBoundingClientRect();
-          if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-            section.classList.add('visible');
-          }
-        });
-      }
-      window.addEventListener('scroll', checkVisibility);
-      checkVisibility(); // To trigger visibility when the page loads
-    });
-  </script>
 </body>
 </html>
