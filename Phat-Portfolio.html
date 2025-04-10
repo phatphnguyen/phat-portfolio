@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -134,17 +134,17 @@
   </header>
 
   <section id="about" class="fade-in">
-  <h2>About Me</h2>
-  <div style="display: flex; align-items: center;">
-   <img src="images/Nguyen_Phat.jpg" alt="Phat Nguyen" style="border-radius: 50%; width: 150px; height: 150px; margin-right: 20px;">
-    <p>I'm a detail-oriented Electrical Engineer passionate about system design, mentorship, and project execution. With experience in healthcare and building design, I bring a proactive mindset and a love for technical problem-solving.</p>
-    <p>Welcome to my Portfolio!</p>
-  </div>
-</section>
+    <h2>About Me</h2>
+    <div style="display: flex; align-items: center;">
+      <!-- Ensure this path is correct based on where you uploaded your image -->
+      <img src="Nguyen_Phat.jpg" alt="Phat Nguyen" style="border-radius: 50%; width: 150px; height: 150px; margin-right: 20px;">
+      <p>I'm a detail-oriented Electrical Engineer passionate about system design, mentorship, and project execution. With experience in healthcare and building design, I bring a proactive mindset and a love for technical problem-solving.</p>
+      <p>Welcome to my Portfolio!</p>
+    </div>
+  </section>
 
   <section id="projects" class="fade-in">
     <h2>Featured Projects</h2>
-
     <div class="project">
       <h3>Hendrick Centennial Hospital</h3>
       <p>My first project as a designer realized with a Groundbreaking Ceremony.</p>
@@ -152,31 +152,7 @@
       <p><strong>Tools:</strong> Revit, AutoCAD, Bluebeam, AGi32, SKM, COMcheck, Microsoft Office</p>
       <p><strong>Code exposure:</strong> NEC 517, NEC 700, TDHS, IES, IECC, ASHRAE</p>
     </div>
-
-    <div class="project">
-      <p><strong>Other Projects Involved:</strong></p>
-      <p>Children’s Hospital, Hunt Regional, Baylor Scott & White Health, UT Southwestern, University of New Mexico, Harris Health System, Houston Methodist Cypress, and Dallas Hospitals; Surgery Centers; Operating, Imaging, and MRI Rooms; Bronchoscopy Rooms; Patient Rooms; ED Triage; Laboratories; and Medical Office Buildings.</p>
-    </div>
-
-    <div class="project">
-      <h3>NightVision Production Studio Team Management & Mentoring New Hires</h3>
-      <p>Managing an Electrical design group to ensure quality deliverables on a tight deadline. Supporting onboarding and mentoring of EITs.</p>
-      <p><strong>Skills:</strong> Leadership, Communication, Revit Oversight, Technical Training</p>
-    </div>
-  </section>
-
-  <section id="resume" class="fade-in">
-    <h2>Resume</h2>
-    <p>Check out my professional background:</p>
-    <a href="Nguyen_Resume2025.pdf" class="button" download>Download Resume</a>
-    <p>Or visit my LinkedIn for more details:</p>
-    <a href="https://www.linkedin.com/in/phatphnguyen/" class="button" target="_blank">Visit LinkedIn</a>
-  </section>
-
-  <section id="contact" class="fade-in">
-    <h2>Contact</h2>
-    <p>Work-Personal Email: <a href="mailto:phatphnguyen@gmail.com"><i class="fas fa-envelope"></i> phatphnguyen@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/phatphnguyen/"><i class="fab fa-linkedin"></i> linkedin.com/in/phatphnguyen</a></p>
+    <!-- More content here -->
   </section>
 
   <footer>
@@ -187,7 +163,6 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const sections = document.querySelectorAll('.fade-in');
-
       function checkVisibility() {
         sections.forEach((section) => {
           const rect = section.getBoundingClientRect();
@@ -196,7 +171,6 @@
           }
         });
       }
-
       window.addEventListener('scroll', checkVisibility);
       checkVisibility(); // To trigger visibility when the page loads
     });
